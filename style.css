@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  font-family: "Noto Sans", sans-serif;
+}
+.header{
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1em 3em;
+}
+#logo{
+  font-size: 19px;
+  color: #f47521;
+  font-weight: bolder;
+}
+.nav a{
+  margin: 1em;
+  color: #dadada;
+}
+.profile{
+  display: flex;
+}
+.profile i{
+  margin: 0em 1.3em;
+  font-size: 19px;
+  color: #dadada;
+}
+.box{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  padding: 1em 9%;
+  opacity: 100%;
+  animation: slide-show 19s infinite;
+}
+.slide h3{
+  font-size: 3em;
+  color: #fff;
+}
+.slide p{
+  font-size: 1em;
+  color: #fff;
+}
+.button{
+  margin-top: 1.9em;
+}
+.btn{
+  background-color: #f47521;
+  padding: 10px 15px;
+  font-size: 15px;
+  color: white;
+  border-radius: 0.3em;
+}
+@keyframes slide-show{
+  0%{
+    opacity: 1;
+  }
+  30%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 100;
+  }
+}
