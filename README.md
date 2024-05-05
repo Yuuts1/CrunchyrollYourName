@@ -9,4 +9,4 @@ ao inves de JavaScript.
 
 ![download](https://github.com/Yuuts1/CrunchyrollYourName/assets/105507380/1a75a5bb-3e17-4499-a292-b2fcf9a2fb9c)
 
-This site was built using [GitHub Pages]([https://pages.github.com/](https://yuuts1.github.io/CrunchyrollYourName/)).
+This site was built using [GitHub Pages](https://yuuts1.github.io/CrunchyrollYourName/)).
